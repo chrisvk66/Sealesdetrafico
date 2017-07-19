@@ -20,7 +20,7 @@
         android:layout_height="match_parent"
         android:orientation="horizontal"
         android:paddingTop="70dp"
-        android:paddingLeft="65dp">
+        android:paddingLeft="@dimen/paddingleftprincipal">
 
         <com.gc.materialdesign.views.ButtonRectangle
             android:id="@+id/buttonsignals"
