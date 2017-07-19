@@ -5,11 +5,38 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.signals.traffic.sealesdetrafico.MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/fondo_negro">
 
-    <Button
-        android:id="@+id/button"
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/app_name" />
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginTop="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="70dp"
+        android:paddingLeft="65dp">
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/buttonsignals"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="#f2ff00"
+            android:text="@string/signals"
+            android:textColor="#000000"/>
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/buttontest"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="#f2ff00"
+            android:text="@string/test"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
 </LinearLayout>
