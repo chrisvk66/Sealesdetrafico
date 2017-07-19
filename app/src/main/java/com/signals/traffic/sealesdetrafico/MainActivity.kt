@@ -14,8 +14,7 @@ class MainActivity : AppCompatActivity() {
 
     fun activitychange(view: View){
 
-        val i: Intent = Intent(this, Signals::class.java)
-
-        startActivity(i)
+        //val i: Intent = Intent(this, Signals::class.java)
+        startActivity(Intent(this, Signals::class.java))
     }
 }
