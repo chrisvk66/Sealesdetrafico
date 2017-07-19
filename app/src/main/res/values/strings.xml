@@ -1,6 +1,14 @@
 <resources>
     <string name="app_name">Señales de trafico</string>
-    <string name="boton">funkable</string>
     <string name="signals">Señales</string>
     <string name="test">Test</string>
+    <string name="priority">Prioridad</string>
+    <string name="danger">Peligro</string>
+    <string name="prohibition">Prohibición</string>
+    <string name="obligation">Obligación</string>
+    <string name="indication">Indicación</string>
+    <string name="lanes">Carriles</string>
+    <string name="service">Servicio</string>
+    <string name="orientation">Orientación</string>
+    <string name="works">Obras</string>
 </resources>
