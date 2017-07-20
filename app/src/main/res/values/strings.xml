@@ -11,4 +11,8 @@
     <string name="service">Servicio</string>
     <string name="orientation">Orientación</string>
     <string name="works">Obras</string>
+
+
+    <string name="danger1">P1 Intersección con prioridad</string>
+    <string name="danger2">P1a Intersección con prioridad sobre vía a la derecha</string>
 </resources>

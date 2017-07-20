@@ -13,7 +13,7 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/pruebaimagen1"
+                android:id="@+id/danger1"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:clickable="true"
@@ -22,13 +22,13 @@
                 app:srcCompat="@drawable/danger1" />
 
             <ImageView
-                android:id="@+id/pruebaimagen2"
+                android:id="@+id/danger2"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="verSeñal"
-                app:srcCompat="@drawable/ic_launcher" />
+                app:srcCompat="@drawable/danger2" />
 
         </TableRow>
 

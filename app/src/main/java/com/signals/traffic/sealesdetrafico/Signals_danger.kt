@@ -18,8 +18,6 @@ class Signals_danger : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.signal_danger)
 
-        //val img1=findViewById<ImageView>(R.id.pruebaimagen1)
-        //val img2=findViewById<ImageView>(R.id.pruebaimagen2)
     }
 
 
@@ -44,12 +42,15 @@ class Signals_danger : AppCompatActivity() {
         when(view.id){
 
             //aqui se cambia el texto y la imagen segun que imagen se pulse
-            R.id.pruebaimagen1 ->{
-                text_dialog.text = "Imagen 1" //aqui cambiaria la descripcion
+            R.id.danger1 ->{
+                text_dialog.setText(R.string.danger1) //aqui cambiaria la descripcion
                 signal_dialog.setImageResource(R.drawable.danger1) //aqui cambia la imagen
             }
 
-            R.id.pruebaimagen2-> text_dialog.text= "Imagen 2"
+            R.id.danger2 ->{
+                text_dialog.setText(R.string.danger2) //aqui cambiaria la descripcion
+                signal_dialog.setImageResource(R.drawable.danger2) //aqui cambia la imagen
+            }
         }
     }
 
