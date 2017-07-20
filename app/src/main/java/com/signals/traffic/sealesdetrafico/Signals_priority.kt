@@ -44,9 +44,14 @@ class Signals_priority : AppCompatActivity() {
         when(view.id){
 
             //aqui se cambia el texto y la imagen segun que imagen se pulse
-            R.id.pruebaimagen1 -> text_dialog.text = "Imagen 1"
+            R.id.pruebaimagen1 ->{
+                text_dialog.text = "Imagen 1" //aqui cambiaria la descripcion
+                signal_dialog.setImageResource(R.drawable.logo) //aqui cambia la imagen
+            }
+
             R.id.pruebaimagen2-> text_dialog.text= "Imagen 2"
         }
     }
+
 
 }

@@ -16,17 +16,20 @@
                 android:id="@+id/pruebaimagen1"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/logo"
+                android:clickable="true"
                 android:focusable="true"
-                android:clickable="true"/>
+                android:onClick="verSeñal"
+                app:srcCompat="@drawable/logo" />
 
             <ImageView
                 android:id="@+id/pruebaimagen2"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/ic_launcher"
+                android:clickable="true"
                 android:focusable="true"
-                android:clickable="true"/>
+                android:onClick="verSeñal"
+                app:srcCompat="@drawable/ic_launcher" />
+
         </TableRow>
 
         <TableRow
