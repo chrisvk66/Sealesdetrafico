@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/blanco">
 
     <TableLayout
         android:layout_width="match_parent"
@@ -14,7 +15,7 @@
 
             <ImageView
                 android:id="@+id/danger1"
-                android:layout_width="100dp"
+                android:layout_width="95dp"
                 android:layout_height="100dp"
                 android:clickable="true"
                 android:focusable="true"
@@ -23,12 +24,26 @@
 
             <ImageView
                 android:id="@+id/danger2"
-                android:layout_width="100dp"
+                android:layout_width="95dp"
                 android:layout_height="100dp"
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="verSeñal"
                 app:srcCompat="@drawable/danger2" />
+
+            <ImageView
+                android:id="@+id/danger3"
+                android:layout_width="95dp"
+                android:layout_height="100dp"
+                android:onClick="verSeñal"
+                app:srcCompat="@drawable/danger3" />
+
+            <ImageView
+                android:id="@+id/danger4"
+                android:layout_width="95dp"
+                android:layout_height="100dp"
+                android:onClick="verSeñal"
+                app:srcCompat="@drawable/danger4" />
 
         </TableRow>
 
