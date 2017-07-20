@@ -61,6 +61,26 @@ class Signals_danger : AppCompatActivity() {
                 text_dialog.setText(R.string.danger4) //aqui cambiaria la descripcion
                 signal_dialog.setImageResource(R.drawable.danger4) //aqui cambia la imagen
             }
+
+            R.id.danger5 ->{
+                text_dialog.setText(R.string.danger5) //aqui cambiaria la descripcion
+                signal_dialog.setImageResource(R.drawable.danger5) //aqui cambia la imagen
+            }
+
+            R.id.danger6 ->{
+                text_dialog.setText(R.string.danger6) //aqui cambiaria la descripcion
+                signal_dialog.setImageResource(R.drawable.danger6) //aqui cambia la imagen
+            }
+
+            R.id.danger7 ->{
+                text_dialog.setText(R.string.danger7) //aqui cambiaria la descripcion
+                signal_dialog.setImageResource(R.drawable.danger7) //aqui cambia la imagen
+            }
+
+            R.id.danger8 ->{
+                text_dialog.setText(R.string.danger8) //aqui cambiaria la descripcion
+                signal_dialog.setImageResource(R.drawable.danger8) //aqui cambia la imagen
+            }
         }
     }
 

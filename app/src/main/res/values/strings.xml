@@ -16,5 +16,9 @@
     <string name="danger1">P1 Intersección con prioridad</string>
     <string name="danger2">P1a Intersección con prioridad sobre vía a la derecha</string>
     <string name="danger3">P1b Intersección con prioridad sobre vía a la izquierda</string>
-    <string name="danger4">P1c Intersección con prioridad sobre incorporación a la derecha</string>
+    <string name="danger4">P1c Intersección con prioridad sobre incorporación por derecha</string>
+    <string name="danger5">P1d Intersección con prioridad sobre incorporación por izquierda</string>
+    <string name="danger6">P2 Intersección con prioridad de la derecha</string>
+    <string name="danger7">P3 Semáforos</string>
+    <string name="danger8">P4 Intersección con circulación giratoria</string>
 </resources>

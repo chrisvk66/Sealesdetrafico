@@ -5,62 +5,99 @@
     android:layout_height="match_parent"
     android:background="@color/blanco">
 
-    <TableLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TableRow
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
-            <ImageView
-                android:id="@+id/danger1"
-                android:layout_width="95dp"
-                android:layout_height="100dp"
-                android:clickable="true"
-                android:focusable="true"
-                android:onClick="verSeñal"
-                app:srcCompat="@drawable/danger1" />
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/danger2"
-                android:layout_width="95dp"
-                android:layout_height="100dp"
-                android:clickable="true"
-                android:focusable="true"
-                android:onClick="verSeñal"
-                app:srcCompat="@drawable/danger2" />
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
-            <ImageView
-                android:id="@+id/danger3"
-                android:layout_width="95dp"
-                android:layout_height="100dp"
-                android:onClick="verSeñal"
-                app:srcCompat="@drawable/danger3" />
+                    <ImageView
+                        android:id="@+id/danger1"
+                        android:layout_width="95dp"
+                        android:layout_height="100dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/danger1" />
 
-            <ImageView
-                android:id="@+id/danger4"
-                android:layout_width="95dp"
-                android:layout_height="100dp"
-                android:onClick="verSeñal"
-                app:srcCompat="@drawable/danger4" />
+                    <ImageView
+                        android:id="@+id/danger2"
+                        android:layout_width="95dp"
+                        android:layout_height="100dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/danger2" />
 
-        </TableRow>
+                    <ImageView
+                        android:id="@+id/danger3"
+                        android:layout_width="95dp"
+                        android:layout_height="100dp"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/danger3" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+                    <ImageView
+                        android:id="@+id/danger4"
+                        android:layout_width="95dp"
+                        android:layout_height="100dp"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/danger4" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+                </TableRow>
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </TableLayout>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+                    <ImageView
+                        android:id="@+id/danger5"
+                        android:layout_width="95dp"
+                        android:layout_height="100dp"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/danger5" />
+
+                    <ImageView
+                        android:id="@+id/danger6"
+                        android:layout_width="95dp"
+                        android:layout_height="100dp"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/danger6" />
+
+                    <ImageView
+                        android:id="@+id/danger7"
+                        android:layout_width="95dp"
+                        android:layout_height="100dp"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/danger7" />
+
+                    <ImageView
+                        android:id="@+id/danger8"
+                        android:layout_width="95dp"
+                        android:layout_height="100dp"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/danger8" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
 </LinearLayout>
