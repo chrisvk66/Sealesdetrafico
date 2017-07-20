@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Signals"/>
-        <activity android:name=".Signals_priority"/>
+        <activity android:name=".Signals_danger"/>
     </application>
 
 </manifest>

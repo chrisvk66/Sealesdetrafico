@@ -19,7 +19,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="verSeñal"
-                app:srcCompat="@drawable/logo" />
+                app:srcCompat="@drawable/danger1" />
 
             <ImageView
                 android:id="@+id/pruebaimagen2"

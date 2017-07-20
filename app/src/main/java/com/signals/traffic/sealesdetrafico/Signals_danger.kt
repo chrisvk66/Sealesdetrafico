@@ -12,11 +12,11 @@ import android.widget.TextView
 /**
  * Created by David M on 19/07/2017.
  */
-class Signals_priority : AppCompatActivity() {
+class Signals_danger : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.signal_priority)
+        setContentView(R.layout.signal_danger)
 
         //val img1=findViewById<ImageView>(R.id.pruebaimagen1)
         //val img2=findViewById<ImageView>(R.id.pruebaimagen2)
@@ -46,7 +46,7 @@ class Signals_priority : AppCompatActivity() {
             //aqui se cambia el texto y la imagen segun que imagen se pulse
             R.id.pruebaimagen1 ->{
                 text_dialog.text = "Imagen 1" //aqui cambiaria la descripcion
-                signal_dialog.setImageResource(R.drawable.logo) //aqui cambia la imagen
+                signal_dialog.setImageResource(R.drawable.danger1) //aqui cambia la imagen
             }
 
             R.id.pruebaimagen2-> text_dialog.text= "Imagen 2"
