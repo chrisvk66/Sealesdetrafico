@@ -28,7 +28,7 @@
                 android:background="#f2ff00"
                 android:text="@string/priority"
                 android:textColor="#000000"
-                android:textSize="9dp" />
+                android:textSize="@dimen/textbuttonsignals" />
 
             <com.gc.materialdesign.views.ButtonRectangle
                 android:id="@+id/buttondanger"
@@ -37,7 +37,7 @@
                 android:background="#f2ff00"
                 android:text="@string/danger"
                 android:textColor="#000000"
-                android:textSize="9dp"
+                android:textSize="@dimen/textbuttonsignals"
                 android:onClick="priority"/>
 
             <com.gc.materialdesign.views.ButtonRectangle
@@ -47,7 +47,7 @@
                 android:background="#f2ff00"
                 android:text="@string/works"
                 android:textColor="#000000"
-                android:textSize="9dp"/>
+                android:textSize="@dimen/textbuttonsignals"/>
         </TableRow>
 
         <TableRow
@@ -61,7 +61,7 @@
                 android:background="#f2ff00"
                 android:text="@string/orientation"
                 android:textColor="#000000"
-                android:textSize="9dp"/>
+                android:textSize="@dimen/textbuttonsignals"/>
 
             <com.gc.materialdesign.views.ButtonRectangle
                 android:id="@+id/buttonservice"
@@ -70,7 +70,7 @@
                 android:background="#f2ff00"
                 android:text="@string/service"
                 android:textColor="#000000"
-                android:textSize="9dp"/>
+                android:textSize="@dimen/textbuttonsignals"/>
 
             <com.gc.materialdesign.views.ButtonRectangle
                 android:id="@+id/buttonprohibition"
@@ -79,7 +79,7 @@
                 android:background="#f2ff00"
                 android:text="@string/prohibition"
                 android:textColor="#000000"
-                android:textSize="9dp"/>
+                android:textSize="@dimen/textbuttonsignals"/>
         </TableRow>
 
         <TableRow
@@ -93,7 +93,7 @@
                 android:background="#f2ff00"
                 android:text="@string/obligation"
                 android:textColor="#000000"
-                android:textSize="9dp"/>
+                android:textSize="@dimen/textbuttonsignals"/>
 
             <com.gc.materialdesign.views.ButtonRectangle
                 android:id="@+id/buttonlanes"
@@ -102,7 +102,7 @@
                 android:background="#f2ff00"
                 android:text="@string/lanes"
                 android:textColor="#000000"
-                android:textSize="9dp"/>
+                android:textSize="@dimen/textbuttonsignals"/>
 
             <com.gc.materialdesign.views.ButtonRectangle
                 android:id="@+id/buttonindication"
@@ -111,7 +111,7 @@
                 android:background="#f2ff00"
                 android:text="@string/indication"
                 android:textColor="#000000"
-                android:textSize="9dp"/>
+                android:textSize="@dimen/textbuttonsignals"/>
         </TableRow>
 
     </TableLayout>

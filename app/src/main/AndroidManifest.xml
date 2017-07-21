@@ -18,6 +18,10 @@
         </activity>
         <activity android:name=".Signals"/>
         <activity android:name=".Signals_danger"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
