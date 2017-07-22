@@ -35,7 +35,7 @@
     <string name="danger20">P11a Situación de un paso a nivel sin barreras de más de una vía férrea</string>
     <string name="danger21">P12 Aeropuerto</string>
     <string name="danger22">P13a Curva peligrosa hacia la derecha</string>
-    <string name="danger23">P13b Curva peligrosa hacia la derecha</string>
+    <string name="danger23">P13b Curva peligrosa hacia la izquierda</string>
     <string name="danger24">P14a Curvas peligrosa hacia la derecha</string>
     <string name="danger25">P14b Curvas peligrosa hacia la izquierda</string>
     <string name="danger26">P15 Perfir irregular</string>
@@ -64,4 +64,12 @@
     <string name="danger49">P33 Visibilidad reducida</string>
     <string name="danger50">P34 Pavimento deslizante por hielo o nieve</string>
     <string name="danger51">P50 Otros peligros</string>
+
+
+    <string name="priority1">R1 Ceda el paso</string>
+    <string name="priority2">R2 Detención obligatoria</string>
+    <string name="priority3">R3 Calzada con prioridad</string>
+    <string name="priority4">R4 Fin de prioridad</string>
+    <string name="priority5">R5 Prioridad al sentido contrario</string>
+    <string name="priority6">R6 Prioridad respecto al sentido contrario</string>
 </resources>

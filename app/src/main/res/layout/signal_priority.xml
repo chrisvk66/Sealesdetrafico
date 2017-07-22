@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="@string/priority"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/priority1"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/priority1" />
+
+                    <ImageView
+                        android:id="@+id/priority2"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/priority2" />
+
+                    <ImageView
+                        android:id="@+id/priority3"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/priority3" />
+
+                    <ImageView
+                        android:id="@+id/priority4"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/priority4" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/priority5"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/priority5" />
+
+                    <ImageView
+                        android:id="@+id/priority6"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/priority6" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
