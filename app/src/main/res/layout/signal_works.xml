@@ -20,7 +20,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
-                android:text="@string/danger"
+                android:text="@string/works"
                 android:textAllCaps="true"
                 android:textSize="30sp"
                 android:textStyle="bold" />
@@ -34,36 +34,36 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:id="@+id/danger1"
+                        android:id="@+id/works1"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:clickable="true"
                         android:focusable="true"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger1" />
+                        app:srcCompat="@drawable/works1" />
 
                     <ImageView
-                        android:id="@+id/danger2"
+                        android:id="@+id/works2"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:clickable="true"
                         android:focusable="true"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger2" />
+                        app:srcCompat="@drawable/works2" />
 
                     <ImageView
-                        android:id="@+id/danger3"
+                        android:id="@+id/works3"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger3" />
+                        app:srcCompat="@drawable/works3" />
 
                     <ImageView
-                        android:id="@+id/danger4"
+                        android:id="@+id/works4"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger4" />
+                        app:srcCompat="@drawable/works4" />
 
                 </TableRow>
 
@@ -72,32 +72,32 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/danger5"
+                        android:id="@+id/works5"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger5" />
+                        app:srcCompat="@drawable/works5" />
 
                     <ImageView
-                        android:id="@+id/danger6"
+                        android:id="@+id/works6"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger6" />
+                        app:srcCompat="@drawable/works6" />
 
                     <ImageView
-                        android:id="@+id/danger7"
+                        android:id="@+id/works7"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger7" />
+                        app:srcCompat="@drawable/works7" />
 
                     <ImageView
-                        android:id="@+id/danger8"
+                        android:id="@+id/works8"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger8" />
+                        app:srcCompat="@drawable/works8" />
                 </TableRow>
 
                 <TableRow
@@ -105,32 +105,32 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/danger9"
+                        android:id="@+id/works9"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger9" />
+                        app:srcCompat="@drawable/works9" />
 
                     <ImageView
-                        android:id="@+id/danger10"
+                        android:id="@+id/works10"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger10" />
+                        app:srcCompat="@drawable/works10" />
 
                     <ImageView
-                        android:id="@+id/danger11"
+                        android:id="@+id/works11"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger11" />
+                        app:srcCompat="@drawable/works11" />
 
                     <ImageView
-                        android:id="@+id/danger12"
+                        android:id="@+id/works12"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger12" />
+                        app:srcCompat="@drawable/works12" />
                 </TableRow>
 
                 <TableRow
@@ -138,32 +138,32 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/danger13"
+                        android:id="@+id/works13"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger13" />
+                        app:srcCompat="@drawable/works13" />
 
                     <ImageView
-                        android:id="@+id/danger14"
+                        android:id="@+id/works14"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger14" />
+                        app:srcCompat="@drawable/works14" />
 
                     <ImageView
-                        android:id="@+id/danger15"
+                        android:id="@+id/works15"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger15" />
+                        app:srcCompat="@drawable/works15" />
 
                     <ImageView
-                        android:id="@+id/danger16"
+                        android:id="@+id/works16"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger16" />
+                        app:srcCompat="@drawable/works16" />
                 </TableRow>
 
                 <TableRow
@@ -171,32 +171,32 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/danger17"
+                        android:id="@+id/works17"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger17" />
+                        app:srcCompat="@drawable/works17" />
 
                     <ImageView
-                        android:id="@+id/danger18"
+                        android:id="@+id/works18"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger18" />
+                        app:srcCompat="@drawable/works18" />
 
                     <ImageView
-                        android:id="@+id/danger19"
+                        android:id="@+id/works19"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger19" />
+                        app:srcCompat="@drawable/works19" />
 
                     <ImageView
-                        android:id="@+id/danger20"
+                        android:id="@+id/works20"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger20" />
+                        app:srcCompat="@drawable/works20" />
                 </TableRow>
 
                 <TableRow
@@ -204,32 +204,32 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/danger21"
+                        android:id="@+id/works21"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger21" />
+                        app:srcCompat="@drawable/works21" />
 
                     <ImageView
-                        android:id="@+id/danger22"
+                        android:id="@+id/works22"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger22" />
+                        app:srcCompat="@drawable/works22" />
 
                     <ImageView
-                        android:id="@+id/danger23"
+                        android:id="@+id/works23"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger23" />
+                        app:srcCompat="@drawable/works23" />
 
                     <ImageView
-                        android:id="@+id/danger24"
+                        android:id="@+id/works24"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger24" />
+                        app:srcCompat="@drawable/works24" />
 
                 </TableRow>
 
@@ -238,32 +238,32 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/danger25"
+                        android:id="@+id/works25"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger25" />
+                        app:srcCompat="@drawable/works25" />
 
                     <ImageView
-                        android:id="@+id/danger26"
+                        android:id="@+id/works26"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger26" />
+                        app:srcCompat="@drawable/works26" />
 
                     <ImageView
-                        android:id="@+id/danger27"
+                        android:id="@+id/works27"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger27" />
+                        app:srcCompat="@drawable/works27" />
 
                     <ImageView
-                        android:id="@+id/danger28"
+                        android:id="@+id/works28"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger28" />
+                        app:srcCompat="@drawable/works28" />
                 </TableRow>
 
                 <TableRow
@@ -271,32 +271,32 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/danger29"
+                        android:id="@+id/works29"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger29" />
+                        app:srcCompat="@drawable/works29" />
 
                     <ImageView
-                        android:id="@+id/danger30"
+                        android:id="@+id/works30"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger30" />
+                        app:srcCompat="@drawable/works30" />
 
                     <ImageView
-                        android:id="@+id/danger31"
+                        android:id="@+id/works31"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger31" />
+                        app:srcCompat="@drawable/works31" />
 
                     <ImageView
-                        android:id="@+id/danger32"
+                        android:id="@+id/works32"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger32" />
+                        app:srcCompat="@drawable/works32" />
                 </TableRow>
 
                 <TableRow
@@ -304,158 +304,34 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/danger33"
+                        android:id="@+id/works33"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger33" />
+                        app:srcCompat="@drawable/works33" />
 
                     <ImageView
-                        android:id="@+id/danger34"
+                        android:id="@+id/works34"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger34" />
+                        app:srcCompat="@drawable/works34" />
 
                     <ImageView
-                        android:id="@+id/danger35"
+                        android:id="@+id/works35"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger35" />
+                        app:srcCompat="@drawable/works35" />
 
                     <ImageView
-                        android:id="@+id/danger36"
+                        android:id="@+id/works36"
                         android:layout_width="@dimen/anchoseñal"
                         android:layout_height="@dimen/altoseñal"
                         android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger36" />
+                        app:srcCompat="@drawable/works36" />
                 </TableRow>
 
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:id="@+id/danger37"
-                        android:layout_width="@dimen/anchoseñal"
-                        android:layout_height="@dimen/altoseñal"
-                        android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger37" />
-
-                    <ImageView
-                        android:id="@+id/danger38"
-                        android:layout_width="@dimen/anchoseñal"
-                        android:layout_height="@dimen/altoseñal"
-                        android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger38" />
-
-                    <ImageView
-                        android:id="@+id/danger39"
-                        android:layout_width="@dimen/anchoseñal"
-                        android:layout_height="@dimen/altoseñal"
-                        android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger39" />
-
-                    <ImageView
-                        android:id="@+id/danger40"
-                        android:layout_width="@dimen/anchoseñal"
-                        android:layout_height="@dimen/altoseñal"
-                        android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger40" />
-                </TableRow>
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:id="@+id/danger41"
-                        android:layout_width="@dimen/anchoseñal"
-                        android:layout_height="@dimen/altoseñal"
-                        android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger41" />
-
-                    <ImageView
-                        android:id="@+id/danger42"
-                        android:layout_width="@dimen/anchoseñal"
-                        android:layout_height="@dimen/altoseñal"
-                        android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger42" />
-
-                    <ImageView
-                        android:id="@+id/danger43"
-                        android:layout_width="@dimen/anchoseñal"
-                        android:layout_height="@dimen/altoseñal"
-                        android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger43" />
-
-                    <ImageView
-                        android:id="@+id/danger44"
-                        android:layout_width="@dimen/anchoseñal"
-                        android:layout_height="@dimen/altoseñal"
-                        android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger44" />
-                </TableRow>
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:id="@+id/danger45"
-                        android:layout_width="@dimen/anchoseñal"
-                        android:layout_height="@dimen/altoseñal"
-                        android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger45" />
-
-                    <ImageView
-                        android:id="@+id/danger46"
-                        android:layout_width="@dimen/anchoseñal"
-                        android:layout_height="@dimen/altoseñal"
-                        android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger46" />
-
-                    <ImageView
-                        android:id="@+id/danger47"
-                        android:layout_width="@dimen/anchoseñal"
-                        android:layout_height="@dimen/altoseñal"
-                        android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger47" />
-
-                    <ImageView
-                        android:id="@+id/danger48"
-                        android:layout_width="@dimen/anchoseñal"
-                        android:layout_height="@dimen/altoseñal"
-                        android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger48" />
-                </TableRow>
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:id="@+id/danger49"
-                        android:layout_width="@dimen/anchoseñal"
-                        android:layout_height="@dimen/altoseñal"
-                        android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger49" />
-
-                    <ImageView
-                        android:id="@+id/danger50"
-                        android:layout_width="@dimen/anchoseñal"
-                        android:layout_height="@dimen/altoseñal"
-                        android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger50" />
-
-                    <ImageView
-                        android:id="@+id/danger51"
-                        android:layout_width="@dimen/anchoseñal"
-                        android:layout_height="@dimen/altoseñal"
-                        android:onClick="verSeñal"
-                        app:srcCompat="@drawable/danger51" />
-                </TableRow>
             </TableLayout>
 
         </LinearLayout>

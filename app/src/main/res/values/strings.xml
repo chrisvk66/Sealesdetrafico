@@ -72,4 +72,42 @@
     <string name="priority4">R4 Fin de prioridad</string>
     <string name="priority5">R5 Prioridad al sentido contrario</string>
     <string name="priority6">R6 Prioridad respecto al sentido contrario</string>
+
+
+    <string name="works1">TP3 Semáforos</string>
+    <string name="works2">TP13a Curva peligrosa hacia la derecha</string>
+    <string name="works3">TP13b Curva peligrosa hacia la izquierda</string>
+    <string name="works4">TP14a Curvas peligrosa hacia la derecha</string>
+    <string name="works5">TP14b Curvas peligrosa hacia la izquierda</string>
+    <string name="works6">TP15 Perfir irregular</string>
+    <string name="works7">TP15a Resalto</string>
+    <string name="works8">TP15b Badén</string>
+    <string name="works9">TP17 Estrechamiento de calzada</string>
+    <string name="works10">TP17a Estrechamiento de calzada por la derecha</string>
+    <string name="works11">TP17b  Estrechamiento de calzada por la izquierda</string>
+    <string name="works12">TP18 Obras</string>
+    <string name="works13">TP19 Pavimento deslizante</string>
+    <string name="works14">TP25 Circulación en los dos sentidos</string>
+    <string name="works15">TP26 Desprendimientos</string>
+    <string name="works16">TP28 Proyección de gravilla</string>
+    <string name="works17">TP30 Escalón lateral</string>
+    <string name="works18">TP50 Otros peligros</string>
+    <string name="works19">TR5 Prioridad al sentido contrario</string>
+    <string name="works20">TR101 Entrada prohibida</string>
+    <string name="works21">TR106 Entrada prohibida a vehículos destinados al transporte de  mercancias</string>
+    <string name="works22">TR201 Limitación de peso</string>
+    <string name="works23">TR204 Limitación de anchura</string>
+    <string name="works24">TR205 Limitación de altura</string>
+    <string name="works25">TR301 Velocidad máxima</string>
+    <string name="works26">TR302 Giro a la derecha prohibido</string>
+    <string name="works27">TR303 Giro a la izquierda prohibido</string>
+    <string name="works28">TR305 Adelantamiento prohibido</string>
+    <string name="works29">TR306  Adelantamiento prohibido para camiones</string>
+    <string name="works30">TS52 Reducción de un carril por la derecha (de 3 a 2)</string>
+    <string name="works31">TS53  Reducción de un carril por la izquierda (de 3 a 2)</string>
+    <string name="works32">TS54  Reducción de un carril por la derecha (de 2 a 1)</string>
+    <string name="works33">TS55  Reducción de un carril por la izquierda (de 2 a 1)</string>
+    <string name="works34">TS60 Desvio de un carril por la calzada opuesta</string>
+    <string name="works35">TS61 Desvio de un carril por la calzada opuesta, manteniendo otro por la de obras</string>
+    <string name="works36">TS62 Desvio de dos carriles por calzada opuesta</string>
 </resources>
