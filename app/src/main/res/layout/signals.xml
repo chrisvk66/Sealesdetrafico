@@ -42,7 +42,7 @@
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
                 android:text="@string/works"
-                android:onClick="danger"
+                android:onClick="works"
                 style="@style/botones"/>
         </TableRow>
 

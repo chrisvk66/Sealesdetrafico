@@ -19,6 +19,8 @@
         <activity android:name=".Signals"/>
         <activity android:name=".Signals_danger"/>
         <activity android:name=".Signals_priority"/>
+        <activity android:name=".Signals_works"/>
+        <activity android:name=".Test"/>
 
         <meta-data
             android:name="preloaded_fonts"

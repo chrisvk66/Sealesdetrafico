@@ -15,12 +15,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val buttontest = findViewById<Button>(R.id.buttontest)
-        buttontest.setOnClickListener { Toast.makeText(this,"Proximamente",Toast.LENGTH_SHORT).show() }
+        buttontest.setOnClickListener { startActivity(Intent(this, Test::class.java)) }
+
+        val buttonsiganls = findViewById<Button>(R.id.buttonsignals)
+        buttonsiganls.setOnClickListener { startActivity(Intent(this, Signals::class.java)) }
     }
 
-    fun activitychange(view: View){
-
-        //val i: Intent = Intent(this, Signals::class.java)
-        startActivity(Intent(this, Signals::class.java))
-    }
 }

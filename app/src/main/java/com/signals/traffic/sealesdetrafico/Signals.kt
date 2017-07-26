@@ -19,4 +19,8 @@ class Signals : AppCompatActivity() {
     fun priority(view:View){
         startActivity(Intent(this, Signals_priority::class.java))
     }
+
+    fun works(view:View){
+        startActivity(Intent(this, Signals_works::class.java))
+    }
 }
