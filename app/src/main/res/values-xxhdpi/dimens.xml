@@ -7,4 +7,6 @@
 
     <dimen name="altoseñal" >100dp</dimen>
     <dimen name="anchoseñal" >90dp</dimen>
+
+    <dimen name="espacio">80sp</dimen>
 </resources>
