@@ -8,4 +8,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!--Botones transparentes-->
+    <style name="botones">
+        <item name="android:background">@drawable/botones </item>
+        <item name="android:textColor">@color/blanco</item>
+    </style>
+
 </resources>
