@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
 
 /**
@@ -15,6 +16,12 @@ class Test : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.test)
+
+        var contador_preguntas:Int=1
+        val num_preguntas = findViewById<TextView>(R.id.num_preguntas)
+
+        var aciertos:Int=0
+        var fallos:Int=0
 
         val next=findViewById<Button>(R.id.next)
         next.isEnabled= false
@@ -72,54 +79,173 @@ class Test : AppCompatActivity() {
         resp2.text = respuestas.elementAt(1)
         resp3.text = respuestas.elementAt(2)
 
-        resp1.setOnClickListener { comprobar_resp1(aleatorio, resp1, resp2, resp3, next) }
+        resp1.setOnClickListener {
+            if (aleatorio == 0) {
 
-        resp2.setOnClickListener { comprobar_resp2(aleatorio, resp1, resp2, resp3, next) }
+                resp1.setBackgroundColor(Color.GREEN)
+                resp1.isClickable = false
+                resp2.isEnabled = false
+                resp3.isEnabled = false
+                next.isEnabled= true
 
-        resp3.setOnClickListener { comprobar_resp3(aleatorio, resp1, resp2, resp3, next) }
+                aciertos++
+
+            } else if (aleatorio == 1) {
+                resp1.setBackgroundColor(Color.RED)
+                resp2.setBackgroundColor(Color.GREEN)
+                resp3.setBackgroundColor(Color.RED)
+
+                resp1.isEnabled = false
+                resp2.isClickable = false
+                resp3.isEnabled = false
+                next.isEnabled= true
+
+                fallos++
+
+            } else {
+                resp1.setBackgroundColor(Color.RED)
+                resp2.setBackgroundColor(Color.RED)
+                resp3.setBackgroundColor(Color.GREEN)
+
+                resp1.isEnabled = false
+                resp2.isEnabled = false
+                resp3.isClickable = false
+                next.isEnabled= true
+
+                fallos++
+            }
+        }
+
+        resp2.setOnClickListener {
+            if (aleatorio == 1) {
+
+                resp2.setBackgroundColor(Color.GREEN)
+                resp1.isEnabled = false
+                resp2.isClickable = false
+                resp3.isEnabled = false
+                next.isEnabled= true
+
+                aciertos++
+
+            } else if (aleatorio == 0) {
+                resp1.setBackgroundColor(Color.GREEN)
+                resp2.setBackgroundColor(Color.RED)
+                resp3.setBackgroundColor(Color.RED)
+
+                resp1.isClickable = false
+                resp2.isEnabled = false
+                resp3.isEnabled = false
+                next.isEnabled= true
+
+                fallos++
+
+            } else {
+                resp1.setBackgroundColor(Color.RED)
+                resp2.setBackgroundColor(Color.RED)
+                resp3.setBackgroundColor(Color.GREEN)
+
+                resp1.isEnabled = false
+                resp2.isEnabled = false
+                resp3.isClickable = false
+                next.isEnabled= true
+
+                fallos++
+            }
+        }
+
+        resp3.setOnClickListener {
+            if (aleatorio == 2) {
+
+                resp3.setBackgroundColor(Color.GREEN)
+                resp1.isEnabled = false
+                resp2.isEnabled = false
+                resp3.isClickable = false
+                next.isEnabled= true
+
+                aciertos++
+
+            } else if (aleatorio == 0) {
+                resp1.setBackgroundColor(Color.GREEN)
+                resp2.setBackgroundColor(Color.RED)
+                resp3.setBackgroundColor(Color.RED)
+
+                resp1.isClickable = false
+                resp2.isEnabled = false
+                resp3.isEnabled = false
+                next.isEnabled= true
+
+                fallos++
+
+
+            } else {
+                resp1.setBackgroundColor(Color.RED)
+                resp2.setBackgroundColor(Color.GREEN)
+                resp3.setBackgroundColor(Color.RED)
+
+                resp1.isEnabled = false
+                resp2.isClickable = false
+                resp3.isEnabled = false
+                next.isEnabled= true
+
+                fallos++
+
+            }
+        }
 
 
         next.setOnClickListener {
 
-            next.isEnabled= false
-            resp1.isEnabled = true
-            resp2.isEnabled = true
-            resp3.isEnabled = true
+            if (contador_preguntas==10){
 
-            resp1.isClickable = true
-            resp2.isClickable = true
-            resp3.isClickable = true
+                //finalizan las preguntas y se iniciaría la siguiente actividad mostrando los fallos y los aciertos
+                //Toast.makeText(this,"A: $aciertos F: $fallos", Toast.LENGTH_SHORT).show()
 
-            resp1.setBackgroundColor(Color.LTGRAY)
-            resp2.setBackgroundColor(Color.LTGRAY)
-            resp3.setBackgroundColor(Color.LTGRAY)
+            }else{
 
-            imagenes.clear()
-            respuestas.clear()
+                contador_preguntas++
 
-            while (imagenes.size < 3) {
-                val random = (Math.random() * img.size).toInt()
+                num_preguntas.text = contador_preguntas.toString()
+                next.isEnabled= false
+                resp1.isEnabled = true
+                resp2.isEnabled = true
+                resp3.isEnabled = true
 
-                val r = resp[random]
-                val r2 = img[random]
+                resp1.isClickable = true
+                resp2.isClickable = true
+                resp3.isClickable = true
 
-                respuestas.add(r)
-                imagenes.add(r2)
+                resp1.setBackgroundColor(Color.LTGRAY)
+                resp2.setBackgroundColor(Color.LTGRAY)
+                resp3.setBackgroundColor(Color.LTGRAY)
+
+                imagenes.clear()
+                respuestas.clear()
+
+                while (imagenes.size < 3) {
+                    val random = (Math.random() * img.size).toInt()
+
+                    val r = resp[random]
+                    val r2 = img[random]
+
+                    respuestas.add(r)
+                    imagenes.add(r2)
+                }
+
+
+                val aleatorio2 = (Math.random() * 3).toInt()
+                aleatorio = aleatorio2
+                test_img.setImageResource(imagenes.elementAt(aleatorio))
+                resp1.text = respuestas.elementAt(0)
+                resp2.text = respuestas.elementAt(1)
+                resp3.text = respuestas.elementAt(2)
             }
 
-
-            var aleatorio2 = (Math.random() * 3).toInt()
-            aleatorio = aleatorio2
-            test_img.setImageResource(imagenes.elementAt(aleatorio))
-            resp1.text = respuestas.elementAt(0)
-            resp2.text = respuestas.elementAt(1)
-            resp3.text = respuestas.elementAt(2)
         }
 
 
     }//OnCreate
 
-    fun comprobar_resp1(num: Int, resp1: Button, resp2: Button, resp3: Button, next:Button) {
+    /*fun comprobar_resp1(num: Int, resp1: Button, resp2: Button, resp3: Button, next:Button) {
         if (num == 0) {
 
             resp1.setBackgroundColor(Color.GREEN)
@@ -127,7 +253,7 @@ class Test : AppCompatActivity() {
             resp2.isEnabled = false
             resp3.isEnabled = false
             next.isEnabled= true
-            //Toast.makeText(this, "¡Correcto!", Toast.LENGTH_SHORT).show()
+
 
         } else if (num == 1) {
             resp1.setBackgroundColor(Color.RED)
@@ -149,9 +275,9 @@ class Test : AppCompatActivity() {
             resp3.isClickable = false
             next.isEnabled= true
         }
-    }
+    }*/
 
-    fun comprobar_resp2(num: Int, resp1: Button, resp2: Button, resp3: Button, next:Button) {
+    /*fun comprobar_resp2(num: Int, resp1: Button, resp2: Button, resp3: Button, next:Button) {
         if (num == 1) {
 
             resp2.setBackgroundColor(Color.GREEN)
@@ -159,7 +285,6 @@ class Test : AppCompatActivity() {
             resp2.isClickable = false
             resp3.isEnabled = false
             next.isEnabled= true
-            //Toast.makeText(this, "¡Correcto!", Toast.LENGTH_SHORT).show()
 
         } else if (num == 0) {
             resp1.setBackgroundColor(Color.GREEN)
@@ -181,10 +306,10 @@ class Test : AppCompatActivity() {
             resp3.isClickable = false
             next.isEnabled= true
         }
-    }
+    }*/
 
 
-    fun comprobar_resp3(num: Int, resp1: Button, resp2: Button, resp3: Button, next:Button) {
+    /*fun comprobar_resp3(num: Int, resp1: Button, resp2: Button, resp3: Button, next:Button) {
             if (num == 2) {
 
                 resp3.setBackgroundColor(Color.GREEN)
@@ -192,7 +317,7 @@ class Test : AppCompatActivity() {
                 resp2.isEnabled = false
                 resp3.isClickable = false
                 next.isEnabled= true
-                //Toast.makeText(this, "¡Correcto!", Toast.LENGTH_SHORT).show()
+
 
             } else if (num == 0) {
                 resp1.setBackgroundColor(Color.GREEN)
@@ -214,6 +339,6 @@ class Test : AppCompatActivity() {
                 resp3.isEnabled = false
                 next.isEnabled= true
             }
-    }
+    }*/
 }
 
