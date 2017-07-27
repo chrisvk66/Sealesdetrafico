@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttonsize">130dp</dimen>
+    <dimen name="paddingtable">75dp</dimen>
+    <dimen name="paddingleftprincipal">150dp</dimen>
+    <dimen name="textbuttonsignals">7sp</dimen>
+
+    <dimen name="altoseñal" >160dp</dimen>
+    <dimen name="anchoseñal" >117dp</dimen>
+
+    <dimen name="espacio">75sp</dimen>
+</resources>

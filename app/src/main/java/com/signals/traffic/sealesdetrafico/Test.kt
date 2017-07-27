@@ -59,6 +59,8 @@ class Test : AppCompatActivity() {
                 getString(R.string.works28),getString(R.string.works29),getString(R.string.works30),getString(R.string.works31), getString(R.string.works32),getString(R.string.works33),getString(R.string.works34),getString(R.string.works35),
                 getString(R.string.works36)  )
 
+
+
         val imagenes = mutableSetOf<Int>()
         val respuestas = mutableSetOf<String>()
 
@@ -199,6 +201,7 @@ class Test : AppCompatActivity() {
 
                 //finalizan las preguntas y se iniciaría la siguiente actividad mostrando los fallos y los aciertos
                 //Toast.makeText(this,"A: $aciertos F: $fallos", Toast.LENGTH_SHORT).show()
+                finish()
 
             }else{
 

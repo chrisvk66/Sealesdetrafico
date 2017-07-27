@@ -38,13 +38,14 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10sp"
         android:layout_marginRight="10sp"
-        android:layout_marginTop="120sp"
+        android:layout_marginTop="90sp"
         android:orientation="vertical">
 
         <Button
             android:id="@+id/resp1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
             android:layout_weight="1"
             android:text="Respuesta 1" />
 
@@ -52,6 +53,7 @@
             android:id="@+id/resp2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
             android:layout_weight="1"
             android:text="Respuesta 2" />
 
