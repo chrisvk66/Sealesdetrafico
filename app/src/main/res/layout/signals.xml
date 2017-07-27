@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" >
 
-            <Button
+                <Button
                 android:id="@+id/buttonpriority"
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
@@ -55,6 +55,7 @@
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
                 android:text="@string/orientation"
+                android:onClick="orientation"
                 style="@style/botones"/>
 
             <Button
@@ -62,6 +63,7 @@
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
                 android:text="@string/service"
+                android:onClick="service"
                 style="@style/botones"/>
 
             <Button
@@ -69,6 +71,7 @@
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
                 android:text="@string/prohibition"
+                android:onClick="prohibition"
                 style="@style/botones"/>
         </TableRow>
 

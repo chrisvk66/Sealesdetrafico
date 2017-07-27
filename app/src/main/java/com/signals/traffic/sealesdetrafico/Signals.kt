@@ -23,4 +23,16 @@ class Signals : AppCompatActivity() {
     fun works(view:View){
         startActivity(Intent(this, Signals_works::class.java))
     }
+
+    fun prohibition(view:View){
+        startActivity(Intent(this, Signals_prohibition::class.java))
+    }
+
+    fun orientation(view:View){
+        startActivity(Intent(this, Signals_orientation::class.java))
+    }
+
+    fun service(view:View){
+        startActivity(Intent(this, Signals_service::class.java))
+    }
 }

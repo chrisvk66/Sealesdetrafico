@@ -20,6 +20,9 @@
         <activity android:name=".Signals_danger"/>
         <activity android:name=".Signals_priority"/>
         <activity android:name=".Signals_works"/>
+        <activity android:name=".Signals_orientation"/>
+        <activity android:name=".Signals_prohibition"/>
+        <activity android:name=".Signals_service"/>
         <activity android:name=".Test"/>
 
         <meta-data

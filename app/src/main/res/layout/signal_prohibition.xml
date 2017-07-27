@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="@string/prohibition"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/prohibition1"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition1" />
+
+                    <ImageView
+                        android:id="@+id/prohibition2"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition2" />
+
+                    <ImageView
+                        android:id="@+id/prohibition3"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition3" />
+
+                    <ImageView
+                        android:id="@+id/prohibition4"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition4" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/prohibition5"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition5" />
+
+                    <ImageView
+                        android:id="@+id/prohibition6"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition6" />
+
+                    <ImageView
+                        android:id="@+id/prohibition7"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition7" />
+
+                    <ImageView
+                        android:id="@+id/prohibition8"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition8" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/prohibition9"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition9" />
+
+                    <ImageView
+                        android:id="@+id/prohibition10"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition10" />
+
+                    <ImageView
+                        android:id="@+id/prohibition11"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition11" />
+
+                    <ImageView
+                        android:id="@+id/prohibition12"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition12" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/prohibition13"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition13" />
+
+                    <ImageView
+                        android:id="@+id/prohibition14"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition14" />
+
+                    <ImageView
+                        android:id="@+id/prohibition15"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition15" />
+
+                    <ImageView
+                        android:id="@+id/prohibition16"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition16" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/prohibition17"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition17" />
+
+                    <ImageView
+                        android:id="@+id/prohibition18"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition18" />
+
+                    <ImageView
+                        android:id="@+id/prohibition19"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition19" />
+
+                    <ImageView
+                        android:id="@+id/prohibition20"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition20" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/prohibition21"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition21" />
+
+                    <ImageView
+                        android:id="@+id/prohibition22"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition22" />
+
+                    <ImageView
+                        android:id="@+id/prohibition23"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition23" />
+
+                    <ImageView
+                        android:id="@+id/prohibition24"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition24" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/prohibition25"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition25" />
+
+                    <ImageView
+                        android:id="@+id/prohibition26"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition26" />
+
+                    <ImageView
+                        android:id="@+id/prohibition27"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition27" />
+
+                    <ImageView
+                        android:id="@+id/prohibition28"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition28" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/prohibition29"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition29" />
+
+                    <ImageView
+                        android:id="@+id/prohibition30"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition30" />
+
+                    <ImageView
+                        android:id="@+id/prohibition31"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition31" />
+
+                    <ImageView
+                        android:id="@+id/prohibition32"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition32" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/prohibition33"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition33" />
+
+                    <ImageView
+                        android:id="@+id/prohibition34"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition34" />
+
+                    <ImageView
+                        android:id="@+id/prohibition35"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition35" />
+
+                    <ImageView
+                        android:id="@+id/prohibition36"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition36" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/prohibition37"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition37" />
+
+                    <ImageView
+                        android:id="@+id/prohibition38"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition38" />
+
+                    <ImageView
+                        android:id="@+id/prohibition39"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/prohibition39" />
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

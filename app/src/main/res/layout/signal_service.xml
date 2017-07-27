@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="@string/service"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/service1"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service1" />
+
+                    <ImageView
+                        android:id="@+id/service2"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service2" />
+
+                    <ImageView
+                        android:id="@+id/service3"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service3" />
+
+                    <ImageView
+                        android:id="@+id/service4"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service4" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/service5"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service5" />
+
+                    <ImageView
+                        android:id="@+id/service6"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service6" />
+
+                    <ImageView
+                        android:id="@+id/service7"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service7" />
+
+                    <ImageView
+                        android:id="@+id/service8"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service8" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/service9"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service9" />
+
+                    <ImageView
+                        android:id="@+id/service10"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service10" />
+
+                    <ImageView
+                        android:id="@+id/service11"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service11" />
+
+                    <ImageView
+                        android:id="@+id/service12"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service12" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/service13"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service13" />
+
+                    <ImageView
+                        android:id="@+id/service14"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service14" />
+
+                    <ImageView
+                        android:id="@+id/service15"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service15" />
+
+                    <ImageView
+                        android:id="@+id/service16"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service16" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/service17"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service17" />
+
+                    <ImageView
+                        android:id="@+id/service18"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service18" />
+
+                    <ImageView
+                        android:id="@+id/service19"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service19" />
+
+                    <ImageView
+                        android:id="@+id/service20"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service20" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/service21"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service21" />
+
+                    <ImageView
+                        android:id="@+id/service22"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service22" />
+
+                    <ImageView
+                        android:id="@+id/service23"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service23" />
+
+                    <ImageView
+                        android:id="@+id/service24"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service24" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/service25"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service25" />
+
+                    <ImageView
+                        android:id="@+id/service26"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service26" />
+
+                    <ImageView
+                        android:id="@+id/service27"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service27" />
+
+                    <ImageView
+                        android:id="@+id/service28"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service28" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/service29"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/service29" />
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

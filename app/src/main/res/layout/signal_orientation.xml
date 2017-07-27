@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="@string/orientation"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/orientation1"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation1" />
+
+                    <ImageView
+                        android:id="@+id/orientation2"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation2" />
+
+                    <ImageView
+                        android:id="@+id/orientation3"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation3" />
+
+                    <ImageView
+                        android:id="@+id/orientation4"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation4" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/orientation5"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation5" />
+
+                    <ImageView
+                        android:id="@+id/orientation6"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation6" />
+
+                    <ImageView
+                        android:id="@+id/orientation7"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation7" />
+
+                    <ImageView
+                        android:id="@+id/orientation8"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation8" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/orientation9"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation9" />
+
+                    <ImageView
+                        android:id="@+id/orientation10"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation10" />
+
+                    <ImageView
+                        android:id="@+id/orientation11"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation11" />
+
+                    <ImageView
+                        android:id="@+id/orientation12"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation12" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/orientation13"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation13" />
+
+                    <ImageView
+                        android:id="@+id/orientation14"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation14" />
+
+                    <ImageView
+                        android:id="@+id/orientation15"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation15" />
+
+                    <ImageView
+                        android:id="@+id/orientation16"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation16" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/orientation17"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation17" />
+
+                    <ImageView
+                        android:id="@+id/orientation18"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation18" />
+
+                    <ImageView
+                        android:id="@+id/orientation19"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation19" />
+
+                    <ImageView
+                        android:id="@+id/orientation20"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation20" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/orientation21"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation21" />
+
+                    <ImageView
+                        android:id="@+id/orientation22"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation22" />
+
+                    <ImageView
+                        android:id="@+id/orientation23"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation23" />
+
+                    <ImageView
+                        android:id="@+id/orientation24"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation24" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/orientation25"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation25" />
+
+                    <ImageView
+                        android:id="@+id/orientation26"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation26" />
+
+                    <ImageView
+                        android:id="@+id/orientation27"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation27" />
+
+                    <ImageView
+                        android:id="@+id/orientation28"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation28" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/orientation29"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation29" />
+
+                    <ImageView
+                        android:id="@+id/orientation30"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation30" />
+
+                    <ImageView
+                        android:id="@+id/orientation31"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation31" />
+
+                    <ImageView
+                        android:id="@+id/orientation32"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation32" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/orientation33"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation33" />
+
+                    <ImageView
+                        android:id="@+id/orientation34"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation34" />
+
+                    <ImageView
+                        android:id="@+id/orientation35"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation35" />
+
+                    <ImageView
+                        android:id="@+id/orientation36"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation36" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/orientation37"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation37" />
+
+                    <ImageView
+                        android:id="@+id/orientation38"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation38" />
+
+                    <ImageView
+                        android:id="@+id/orientation39"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation39" />
+
+                    <ImageView
+                        android:id="@+id/orientation40"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation40" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/orientation41"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation41" />
+
+                    <ImageView
+                        android:id="@+id/orientation42"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation42" />
+
+                    <ImageView
+                        android:id="@+id/orientation43"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation43" />
+
+                    <ImageView
+                        android:id="@+id/orientation44"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation44" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/orientation45"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation45" />
+
+                    <ImageView
+                        android:id="@+id/orientation46"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation46" />
+
+                    <ImageView
+                        android:id="@+id/orientation47"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation47" />
+
+                    <ImageView
+                        android:id="@+id/orientation48"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation48" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/orientation49"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation49" />
+
+                    <ImageView
+                        android:id="@+id/orientation50"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation50" />
+
+                    <ImageView
+                        android:id="@+id/orientation51"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation51" />
+                    <ImageView
+                        android:id="@+id/orientation52"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation52" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/orientation53"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation53" />
+
+                    <ImageView
+                        android:id="@+id/orientation54"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation54" />
+
+                    <ImageView
+                        android:id="@+id/orientation55"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation55" />
+                    <ImageView
+                        android:id="@+id/orientation56"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation56" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/orientation57"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation57" />
+
+                    <ImageView
+                        android:id="@+id/orientation58"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation58" />
+
+                    <ImageView
+                        android:id="@+id/orientation59"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation59" />
+                    <ImageView
+                        android:id="@+id/orientation60"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation60" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/orientation61"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation61" />
+
+                    <ImageView
+                        android:id="@+id/orientation62"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation62" />
+
+                    <ImageView
+                        android:id="@+id/orientation63"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation63" />
+                    <ImageView
+                        android:id="@+id/orientation64"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation64" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/orientation65"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation65" />
+
+                    <ImageView
+                        android:id="@+id/orientation66"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation66" />
+
+                    <ImageView
+                        android:id="@+id/orientation67"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation67" />
+                    <ImageView
+                        android:id="@+id/orientation68"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation68" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/orientation69"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation69" />
+
+                    <ImageView
+                        android:id="@+id/orientation70"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation70" />
+
+                    <ImageView
+                        android:id="@+id/orientation71"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/orientation71" />
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
