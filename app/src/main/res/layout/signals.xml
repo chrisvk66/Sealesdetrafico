@@ -9,19 +9,19 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         app:srcCompat="@drawable/logo"
-        android:layout_marginTop="35dp"/>
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"/>
 
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="5dp"
-        android:gravity="center"
-        android:padding="@dimen/paddingtable">
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal">
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="center">
+            android:gravity="center_horizontal">
 
             <Button
                 android:id="@+id/buttonpriority"
@@ -29,7 +29,8 @@
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
                 android:onClick="priority"
-                android:text="@string/priority" />
+                android:text="@string/priority"
+                android:layout_marginRight="10dp"/>
 
             <Button
                 android:id="@+id/buttondanger"
@@ -37,7 +38,8 @@
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
                 android:onClick="danger"
-                android:text="@string/danger" />
+                android:text="@string/danger"
+                android:layout_marginRight="10dp"/>
 
             <Button
                 android:id="@+id/buttonworks"
@@ -51,7 +53,8 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_marginTop="10dp">
 
             <Button
                 android:id="@+id/buttonorientation"
@@ -59,7 +62,8 @@
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
                 android:onClick="orientation"
-                android:text="@string/orientation" />
+                android:text="@string/orientation"
+                android:layout_marginRight="10dp"/>
 
             <Button
                 android:id="@+id/buttonservice"
@@ -67,7 +71,8 @@
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
                 android:onClick="service"
-                android:text="@string/service" />
+                android:text="@string/service"
+                android:layout_marginRight="10dp"/>
 
             <Button
                 android:id="@+id/buttonprohibition"
@@ -75,27 +80,31 @@
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
                 android:onClick="prohibition"
-                android:text="@string/prohibition" />
+                android:text="@string/prohibition"
+                />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="center">
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp">
 
             <Button
                 android:id="@+id/buttonobligation"
                 style="@style/botones"
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
-                android:text="@string/obligation" />
+                android:text="@string/obligation"
+                android:layout_marginRight="10dp"/>
 
             <Button
                 android:id="@+id/buttonlanes"
                 style="@style/botones"
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
-                android:text="@string/lanes" />
+                android:text="@string/lanes"
+                android:layout_marginRight="10dp"/>
 
             <Button
                 android:id="@+id/buttonindication"
