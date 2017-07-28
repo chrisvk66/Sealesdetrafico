@@ -10,7 +10,13 @@
 
     <!--Botones transparentes-->
     <style name="botones">
-        <item name="android:background">@drawable/botones </item>
+        <item name="android:background">@drawable/botones</item>
+        <item name="android:textColor">@color/blanco</item>
+    </style>
+
+    <!--Botones crystal-->
+    <style name="botonescrystal">
+        <item name="android:background">@drawable/botonescristal</item>
         <item name="android:textColor">@color/blanco</item>
     </style>
 
