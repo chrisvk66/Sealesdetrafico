@@ -12,12 +12,20 @@
     <style name="botones">
         <item name="android:background">@drawable/botones</item>
         <item name="android:textColor">@color/blanco</item>
+        <item name="android:textSize">@dimen/textbuttonsignals</item>
     </style>
 
     <!--Botones crystal-->
     <style name="botonescrystal">
         <item name="android:background">@drawable/botonescristal</item>
         <item name="android:textColor">@color/blanco</item>
+    </style>
+
+    <!--Botones crystal signals-->
+    <style name="botonescrystal2">
+        <item name="android:background">@drawable/botonescristal</item>
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:textSize">@dimen/textbuttonsignals</item>
     </style>
 
 </resources>

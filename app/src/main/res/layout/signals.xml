@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background">
+    android:background="@drawable/fondo_azul">
 
     <ImageView
         android:layout_width="match_parent"
@@ -25,7 +25,7 @@
 
             <Button
                 android:id="@+id/buttonpriority"
-                style="@style/botones"
+                style="@style/botonescrystal2"
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
                 android:onClick="priority"
@@ -34,7 +34,7 @@
 
             <Button
                 android:id="@+id/buttondanger"
-                style="@style/botones"
+                style="@style/botonescrystal2"
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
                 android:onClick="danger"
@@ -43,7 +43,7 @@
 
             <Button
                 android:id="@+id/buttonworks"
-                style="@style/botones"
+                style="@style/botonescrystal2"
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
                 android:onClick="works"
@@ -53,12 +53,12 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:layout_marginTop="10dp">
 
             <Button
                 android:id="@+id/buttonorientation"
-                style="@style/botones"
+                style="@style/botonescrystal2"
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
                 android:onClick="orientation"
@@ -67,7 +67,7 @@
 
             <Button
                 android:id="@+id/buttonservice"
-                style="@style/botones"
+                style="@style/botonescrystal2"
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
                 android:onClick="service"
@@ -76,7 +76,7 @@
 
             <Button
                 android:id="@+id/buttonprohibition"
-                style="@style/botones"
+                style="@style/botonescrystal2"
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
                 android:onClick="prohibition"
@@ -92,7 +92,7 @@
 
             <Button
                 android:id="@+id/buttonobligation"
-                style="@style/botones"
+                style="@style/botonescrystal2"
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
                 android:text="@string/obligation"
@@ -100,7 +100,7 @@
 
             <Button
                 android:id="@+id/buttonlanes"
-                style="@style/botones"
+                style="@style/botonescrystal2"
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
                 android:text="@string/lanes"
@@ -108,7 +108,7 @@
 
             <Button
                 android:id="@+id/buttonindication"
-                style="@style/botones"
+                style="@style/botonescrystal2"
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
                 android:text="@string/indication" />

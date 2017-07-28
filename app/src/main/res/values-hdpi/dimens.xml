@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="buttonsize">100dp</dimen>
+    <dimen name="buttonsize">110dp</dimen>
     <dimen name="paddingtable">30dp</dimen>
     <dimen name="paddingleftprincipal">35dp</dimen>
-    <dimen name="textbuttonsignals">7.2sp</dimen>
+    <dimen name="textbuttonsignals">12sp</dimen>
 
     <dimen name="altoseñal" >90dp</dimen>
     <dimen name="anchoseñal" >80dp</dimen>
