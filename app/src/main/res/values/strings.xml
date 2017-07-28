@@ -253,4 +253,30 @@
     <string name="service27">S124 Estacionamiento para usuarios de ferrocarril</string>
     <string name="service28">S125 Estacionamiento para usuarios de ferrocarril subterráneo</string>
     <string name="service29">S126 Estacionamiento para usuarios de autobús</string>
+
+    <string name="obligation1">R400a Sentido obligatorio</string>
+    <string name="obligation2">R400b Sentido obligatorio</string>
+    <string name="obligation3">R400c Sentido obligatorio</string>
+    <string name="obligation4">R400d Sentido obligatorio</string>
+    <string name="obligation5">R400e Sentido obligatorio</string>
+    <string name="obligation6">R401a Paso obligatorio</string>
+    <string name="obligation7">R401b Paso obligatorio</string>
+    <string name="obligation8">R402 Intersección de sentido giratorio-obligatorio</string>
+    <string name="obligation9">R403a Únicas direcciones permitidas</string>
+    <string name="obligation10">R403b Únicas direcciones permitida</string>
+    <string name="obligation11">R403c Únicas direcciones permitidas</string>
+    <string name="obligation12">R404 Calzada para automóviles excepto motocicletas de dos</string>
+    <string name="obligation13">R405 Calzada para motocicletas de dos ruedas sin sidecar</string>
+    <string name="obligation14">R406 Calzada para camiones</string>
+    <string name="obligation15">R407 Camino reservado para ciclos</string>
+    <string name="obligation16">R408 Camino para vehículos de tracción animal</string>
+    <string name="obligation17">R409 Camino reservado para animales de montura</string>
+    <string name="obligation18">R410 Camino reservado para peatones</string>
+    <string name="obligation19">R411 Velocidad mínima</string>
+    <string name="obligation20">R412 Cadenas para nieve</string>
+    <string name="obligation21">R413 Alumbrado de corto</string>
+    <string name="obligation22">R414 Calzada para vehículos que transporten mercancías peligrosas</string>
+    <string name="obligation23">R415 Calzada para vehículos que transporten productos contaminantes del agua</string>
+    <string name="obligation24">R416 Calzada para vehículos que transporten mercancías explosivas o inflamables</string>
+    <string name="obligation25">R417 Uso obligatorio del cinturon de seguridad</string>
 </resources>

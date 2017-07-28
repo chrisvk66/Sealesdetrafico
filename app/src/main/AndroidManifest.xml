@@ -23,6 +23,7 @@
         <activity android:name=".Signals_orientation"/>
         <activity android:name=".Signals_prohibition"/>
         <activity android:name=".Signals_service"/>
+        <activity android:name=".Signals_obligation"/>
         <activity android:name=".Test"/>
 
         <meta-data

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_verde">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="@string/obligation"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/obligation1"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation1" />
+
+                    <ImageView
+                        android:id="@+id/obligation2"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation2" />
+
+                    <ImageView
+                        android:id="@+id/obligation3"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation3" />
+
+                    <ImageView
+                        android:id="@+id/obligation4"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation4" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/obligation5"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation5" />
+
+                    <ImageView
+                        android:id="@+id/obligation6"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation6" />
+
+                    <ImageView
+                        android:id="@+id/obligation7"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation7" />
+
+                    <ImageView
+                        android:id="@+id/obligation8"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation8" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/obligation9"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation9" />
+
+                    <ImageView
+                        android:id="@+id/obligation10"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation10" />
+
+                    <ImageView
+                        android:id="@+id/obligation11"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation11" />
+
+                    <ImageView
+                        android:id="@+id/obligation12"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation12" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/obligation13"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation13" />
+
+                    <ImageView
+                        android:id="@+id/obligation14"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation14" />
+
+                    <ImageView
+                        android:id="@+id/obligation15"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation15" />
+
+                    <ImageView
+                        android:id="@+id/obligation16"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation16" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/obligation17"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation17" />
+
+                    <ImageView
+                        android:id="@+id/obligation18"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation18" />
+
+                    <ImageView
+                        android:id="@+id/obligation19"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation19" />
+
+                    <ImageView
+                        android:id="@+id/obligation20"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation20" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/obligation21"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation21" />
+
+                    <ImageView
+                        android:id="@+id/obligation22"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation22" />
+
+                    <ImageView
+                        android:id="@+id/obligation23"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation23" />
+
+                    <ImageView
+                        android:id="@+id/obligation24"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation24" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal">
+
+                    <ImageView
+                        android:id="@+id/obligation25"
+                        android:layout_width="@dimen/anchoseñal"
+                        android:layout_height="@dimen/altoseñal"
+                        android:onClick="verSeñal"
+                        app:srcCompat="@drawable/obligation25" />
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

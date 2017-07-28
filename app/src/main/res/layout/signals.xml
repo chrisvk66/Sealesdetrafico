@@ -96,6 +96,7 @@
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
                 android:text="@string/obligation"
+                android:onClick="obligation"
                 android:layout_marginRight="10dp"/>
 
             <Button

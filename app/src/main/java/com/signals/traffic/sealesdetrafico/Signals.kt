@@ -35,4 +35,8 @@ class Signals : AppCompatActivity() {
     fun service(view:View){
         startActivity(Intent(this, Signals_service::class.java))
     }
+
+    fun obligation(view:View){
+        startActivity(Intent(this, Signals_obligation::class.java))
+    }
 }
