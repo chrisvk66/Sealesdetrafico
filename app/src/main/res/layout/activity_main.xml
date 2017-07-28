@@ -18,23 +18,22 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:paddingTop="70dp"
-        android:paddingLeft="@dimen/paddingleftprincipal">
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/buttonsignals"
+            style="@style/botones"
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:text="@string/signals"
-            style="@style/botones"/>
+            android:text="@string/signals" />
 
         <Button
             android:id="@+id/buttontest"
+            style="@style/botones"
             android:layout_width="120dp"
             android:layout_height="120dp"
-            style="@style/botones"
-            android:text="@string/test"
-            android:layout_marginLeft="20dp" />
+            android:layout_marginLeft="20dp"
+            android:text="@string/test" />
     </LinearLayout>
 </LinearLayout>

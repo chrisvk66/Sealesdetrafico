@@ -15,90 +15,94 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="5dp"
+        android:gravity="center"
         android:padding="@dimen/paddingtable">
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent"
+            android:gravity="center">
 
-                <Button
+            <Button
                 android:id="@+id/buttonpriority"
+                style="@style/botones"
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
-                android:text="@string/priority"
                 android:onClick="priority"
-                style="@style/botones"/>
+                android:text="@string/priority" />
 
             <Button
                 android:id="@+id/buttondanger"
+                style="@style/botones"
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
-                android:text="@string/danger"
                 android:onClick="danger"
-                style="@style/botones"/>
+                android:text="@string/danger" />
 
             <Button
                 android:id="@+id/buttonworks"
+                style="@style/botones"
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
-                android:text="@string/works"
                 android:onClick="works"
-                style="@style/botones"/>
+                android:text="@string/works" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent"
+            android:gravity="center">
 
             <Button
                 android:id="@+id/buttonorientation"
+                style="@style/botones"
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
-                android:text="@string/orientation"
                 android:onClick="orientation"
-                style="@style/botones"/>
+                android:text="@string/orientation" />
 
             <Button
                 android:id="@+id/buttonservice"
+                style="@style/botones"
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
-                android:text="@string/service"
                 android:onClick="service"
-                style="@style/botones"/>
+                android:text="@string/service" />
 
             <Button
                 android:id="@+id/buttonprohibition"
+                style="@style/botones"
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
-                android:text="@string/prohibition"
                 android:onClick="prohibition"
-                style="@style/botones"/>
+                android:text="@string/prohibition" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent"
+            android:gravity="center">
 
             <Button
                 android:id="@+id/buttonobligation"
+                style="@style/botones"
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
-                android:text="@string/obligation"
-                style="@style/botones"/>
+                android:text="@string/obligation" />
 
             <Button
                 android:id="@+id/buttonlanes"
+                style="@style/botones"
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
-                android:text="@string/lanes"
-                style="@style/botones"/>
+                android:text="@string/lanes" />
 
             <Button
                 android:id="@+id/buttonindication"
+                style="@style/botones"
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
-                android:text="@string/indication"
-                style="@style/botones"/>
+                android:text="@string/indication" />
         </TableRow>
 
     </TableLayout>

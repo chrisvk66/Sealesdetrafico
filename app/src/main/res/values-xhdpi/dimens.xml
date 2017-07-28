@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="buttonsize">100dp</dimen>
+    <dimen name="buttonsize">90dp</dimen>
     <dimen name="paddingtable">40dp</dimen>
     <dimen name="paddingleftprincipal">65dp</dimen>
     <dimen name="textbuttonsignals">7sp</dimen>
