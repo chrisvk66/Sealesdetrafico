@@ -22,13 +22,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:text="@string/tryagain" />
+            android:text="@string/tryagain"
+            android:onClick="tryagain"/>
         <Button
             android:id="@+id/gomenu"
             style="@style/botonescrystaltest"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:text="@string/gomenu" />
+            android:text="@string/gomenu"
+            android:onClick="gomenu"/>
 
 </LinearLayout>

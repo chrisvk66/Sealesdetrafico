@@ -1,6 +1,7 @@
 package com.signals.traffic.sealesdetrafico
 
 import android.content.Context
+import android.content.Intent
 import android.graphics.Color
 import android.opengl.Visibility
 import android.os.Bundle
@@ -11,6 +12,10 @@ import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import android.os.Build
+import android.R.string.cancel
+import cn.pedant.SweetAlert.SweetAlertDialog
+
 
 /**
  * Created by David M on 26/07/2017.
@@ -257,6 +262,11 @@ class Test : AppCompatActivity() {
                 val prompt:View= li.inflate(R.layout.score_dialog,null)
                 val alert= AlertDialog.Builder(context)
                 alert.setView(prompt)
+                val tryagain = prompt.findViewById<Button>(R.id.tryagain)
+                val gomenu = prompt.findViewById<Button>(R.id.gomenu)
+
+                tryagain.setOnClickListener { startActivity(Intent(this, Test::class.java))}
+                gomenu.setOnClickListener { startActivity(Intent(this, MainActivity::class.java)) }
                 alert.setCancelable(false)
                 val alertDialog: AlertDialog = alert.create()
                 alertDialog.window.setBackgroundDrawableResource(R.drawable.dialog_border_test)
@@ -309,6 +319,18 @@ class Test : AppCompatActivity() {
 
 
     }//OnCreate
+
+    override fun onBackPressed() {
+        //super.onBackPressed()
+
+        SweetAlertDialog(applicationContext, SweetAlertDialog.WARNING_TYPE)
+                .setTitleText(getString(R.string.salir_test))
+                .setCancelText(getString(R.string.permanecer))
+                .setConfirmText(getString(R.string.si))
+                .showCancelButton(true).setCancelClickListener { it.cancel() }.setConfirmClickListener { it.dismiss()
+                finishAffinity() ; startActivity(Intent(this, MainActivity::class.java))}.show()
+            //System.exit(0)
+    }
 
 }
 

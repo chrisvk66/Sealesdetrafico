@@ -284,4 +284,8 @@
     <string name="tryagain">Intentar de nuevo</string>
     <string name="gomenu">Volver a la pantalla inicial</string>
 
+    <string name="si">Sí</string>
+    <string name="permanecer">No, permanecer aquí</string>
+    <string name="salir_test">¿Está seguro de salir sin final finalizar el test?</string>
+
 </resources>
