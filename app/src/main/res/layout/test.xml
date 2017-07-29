@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blanco">
+    android:background="@drawable/fondo_azul">
 
     <ImageView
         android:id="@+id/test_img"
@@ -22,7 +22,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="right"
-            android:text="1" />
+            android:text="1"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView3"
@@ -30,7 +31,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="3sp"
             android:layout_weight="1"
-            android:text="de 10" />
+            android:text="de 10"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -43,6 +45,7 @@
 
         <Button
             android:id="@+id/resp1"
+            style="@style/botonescrystal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5sp"
@@ -51,6 +54,7 @@
 
         <Button
             android:id="@+id/resp2"
+            style="@style/botonescrystal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5sp"
@@ -59,6 +63,7 @@
 
         <Button
             android:id="@+id/resp3"
+            style="@style/botonescrystal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -72,6 +77,7 @@
 
     <Button
         android:id="@+id/next"
+        style="@style/botonescrystal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
