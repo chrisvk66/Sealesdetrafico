@@ -2,8 +2,6 @@ package com.signals.traffic.sealesdetrafico
 
 import android.content.Context
 import android.content.Intent
-import android.graphics.Color
-import android.opengl.Visibility
 import android.os.Bundle
 import android.support.v7.app.AlertDialog
 import android.support.v7.app.AppCompatActivity
@@ -12,9 +10,6 @@ import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
-import android.os.Build
-import android.R.string.cancel
-import cn.pedant.SweetAlert.SweetAlertDialog
 
 
 /**
@@ -323,12 +318,6 @@ class Test : AppCompatActivity() {
     override fun onBackPressed() {
         //super.onBackPressed()
 
-        SweetAlertDialog(applicationContext, SweetAlertDialog.WARNING_TYPE)
-                .setTitleText(getString(R.string.salir_test))
-                .setCancelText(getString(R.string.permanecer))
-                .setConfirmText(getString(R.string.si))
-                .showCancelButton(true).setCancelClickListener { it.cancel() }.setConfirmClickListener { it.dismiss()
-                finishAffinity() ; startActivity(Intent(this, MainActivity::class.java))}.show()
             //System.exit(0)
     }
 
