@@ -95,11 +95,11 @@
                 style="@style/botonescrystal2"
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
-                android:text="@string/obligation"
+                android:text="@string/obligation_and_indication"
                 android:onClick="obligation"
                 android:layout_marginRight="10dp"/>
 
-            <Button
+            <!--<Button
                 android:id="@+id/buttonlanes"
                 style="@style/botonescrystal2"
                 android:layout_width="@dimen/buttonsize"
@@ -112,7 +112,7 @@
                 style="@style/botonescrystal2"
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
-                android:text="@string/indication" />
+                android:text="@string/indication" />-->
         </TableRow>
 
     </TableLayout>

@@ -53,9 +53,11 @@ class Test : AppCompatActivity() {
                 R.drawable.service22, R.drawable.service23, R.drawable.service24, R.drawable.service25, R.drawable.service26, R.drawable.service26, R.drawable.service27, R.drawable.service28, R.drawable.service29,
                 R.drawable.prohibition1, R.drawable.prohibition2, R.drawable.prohibition3,R.drawable.prohibition4, R.drawable.prohibition5,R.drawable.prohibition6, R.drawable.prohibition7, R.drawable.prohibition8, R.drawable.prohibition9, R.drawable.prohibition10, R.drawable.prohibition11,
                 R.drawable.prohibition12,  R.drawable.prohibition13, R.drawable.prohibition14, R.drawable.prohibition15, R.drawable.prohibition16, R.drawable.prohibition17, R.drawable.prohibition18, R.drawable.prohibition19, R.drawable.prohibition20, R.drawable.prohibition21,
-                R.drawable.prohibition22, R.drawable.prohibition23, R.drawable.prohibition24, R.drawable.prohibition25, R.drawable.prohibition26, R.drawable.prohibition26, R.drawable.prohibition27, R.drawable.prohibition28, R.drawable.prohibition29,
+                R.drawable.prohibition22, R.drawable.prohibition23, R.drawable.prohibition24, R.drawable.prohibition25, R.drawable.prohibition26,  R.drawable.prohibition27, R.drawable.prohibition28, R.drawable.prohibition29,
                 R.drawable.prohibition30, R.drawable.prohibition31, R.drawable.prohibition32,R.drawable.prohibition33, R.drawable.prohibition34, R.drawable.prohibition35, R.drawable.prohibition36, R.drawable.prohibition37, R.drawable.prohibition38,
-                R.drawable.prohibition39)
+                R.drawable.prohibition39, R.drawable.obligation1, R.drawable.obligation2, R.drawable.obligation3,R.drawable.obligation4, R.drawable.obligation5,R.drawable.obligation6, R.drawable.obligation7, R.drawable.obligation8, R.drawable.obligation9, R.drawable.obligation10, R.drawable.obligation11,
+                R.drawable.obligation12,  R.drawable.obligation13, R.drawable.obligation14, R.drawable.obligation15, R.drawable.obligation16, R.drawable.obligation17, R.drawable.obligation18, R.drawable.obligation19, R.drawable.obligation20, R.drawable.obligation21,
+                R.drawable.obligation22, R.drawable.obligation23, R.drawable.obligation24, R.drawable.obligation25)
 
 
 
@@ -86,9 +88,12 @@ class Test : AppCompatActivity() {
                 getString(R.string.service25),getString(R.string.service26),getString(R.string.service26),getString(R.string.service27),getString(R.string.service28),getString(R.string.service29), getString(R.string.prohibition1), getString(R.string.prohibition2), getString(R.string.prohibition3),getString(R.string.orientation4),getString(R.string.prohibition5),getString(R.string.prohibition6),getString(R.string.prohibition7),getString(R.string.prohibition8),
                 getString(R.string.prohibition9),getString(R.string.prohibition10),getString(R.string.prohibition11),getString(R.string.prohibition12),getString(R.string.prohibition13),getString(R.string.prohibition14),getString(R.string.prohibition15),getString(R.string.prohibition16),
                 getString(R.string.prohibition17),getString(R.string.prohibition18),getString(R.string.prohibition19),getString(R.string.prohibition20),getString(R.string.prohibition21),getString(R.string.prohibition22),getString(R.string.prohibition23),getString(R.string.prohibition24),
-                getString(R.string.prohibition25),getString(R.string.prohibition26),getString(R.string.prohibition26),getString(R.string.prohibition27),getString(R.string.prohibition28),getString(R.string.prohibition29),getString(R.string.prohibition30),getString(R.string.prohibition31),
+                getString(R.string.prohibition25),getString(R.string.prohibition26),getString(R.string.prohibition27),getString(R.string.prohibition28),getString(R.string.prohibition29),getString(R.string.prohibition30),getString(R.string.prohibition31),
                 getString(R.string.prohibition32),getString(R.string.prohibition33),getString(R.string.prohibition34),getString(R.string.prohibition35),getString(R.string.prohibition36),getString(R.string.prohibition37),getString(R.string.prohibition38),
-                getString(R.string.prohibition39))
+                getString(R.string.prohibition39), getString(R.string.obligation1), getString(R.string.obligation2), getString(R.string.obligation3),getString(R.string.orientation4),getString(R.string.obligation5),getString(R.string.obligation6),getString(R.string.obligation7),getString(R.string.obligation8),
+                getString(R.string.obligation9),getString(R.string.obligation10),getString(R.string.obligation11),getString(R.string.obligation12),getString(R.string.obligation13),getString(R.string.obligation14),getString(R.string.obligation15),getString(R.string.obligation16),
+                getString(R.string.obligation17),getString(R.string.obligation18),getString(R.string.obligation19),getString(R.string.obligation20),getString(R.string.obligation21),getString(R.string.obligation22),getString(R.string.obligation23),getString(R.string.obligation24),
+                getString(R.string.obligation25) )
 
 
 

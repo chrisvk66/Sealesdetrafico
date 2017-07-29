@@ -37,5 +37,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     implementation 'com.github.navasmdc:MaterialDesign:1.5@aar'
+    implementation 'com.google.android.gms:play-services-ads:11.0.0'
 }
 

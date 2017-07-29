@@ -3,7 +3,7 @@
     <dimen name="buttonsize">110dp</dimen>
     <dimen name="paddingtable">12dp</dimen>
     <dimen name="paddingleftprincipal">50dp</dimen>
-    <dimen name="textbuttonsignals">5.4sp</dimen>
+    <dimen name="textbuttonsignals">12sp</dimen>
 
     <dimen name="altoseñal" >100dp</dimen>
     <dimen name="anchoseñal" >90dp</dimen>

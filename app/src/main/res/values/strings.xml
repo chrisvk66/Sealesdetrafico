@@ -11,6 +11,7 @@
     <string name="service">Servicio</string>
     <string name="orientation">Orientación</string>
     <string name="works">Obras</string>
+    <string name="obligation_and_indication">Obligación/Indicación</string>
     <string name="next">Siguiente</string>
 
 
@@ -279,4 +280,5 @@
     <string name="obligation23">R415 Calzada para vehículos que transporten productos contaminantes del agua</string>
     <string name="obligation24">R416 Calzada para vehículos que transporten mercancías explosivas o inflamables</string>
     <string name="obligation25">R417 Uso obligatorio del cinturon de seguridad</string>
+
 </resources>
