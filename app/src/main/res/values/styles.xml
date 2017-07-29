@@ -28,4 +28,16 @@
         <item name="android:textSize">@dimen/textbuttonsignals</item>
     </style>
 
+    <!--Botones crystal acierto-->
+    <style name="botonescrystalacierto">
+        <item name="android:background">@drawable/botonescristalacierto</item>
+        <item name="android:textColor">@color/blanco</item>
+    </style>
+
+    <!--Botones crystal error-->
+    <style name="botonescrystalerror">
+        <item name="android:background">@drawable/botonescristalerror</item>
+        <item name="android:textColor">@color/blanco</item>
+    </style>
+
 </resources>

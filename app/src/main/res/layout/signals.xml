@@ -62,7 +62,7 @@
                 android:layout_width="@dimen/buttonsize"
                 android:layout_height="@dimen/buttonsize"
                 android:onClick="orientation"
-                android:text="@string/orientation_and_indication"
+                android:text="@string/orientation"
                 android:layout_marginRight="10dp"/>
 
             <Button

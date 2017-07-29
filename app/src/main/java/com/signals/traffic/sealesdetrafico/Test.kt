@@ -120,7 +120,7 @@ class Test : AppCompatActivity() {
         resp1.setOnClickListener {
             if (aleatorio == 0) {
 
-                resp1.setBackgroundColor(Color.GREEN)
+                resp1.setBackgroundResource(R.drawable.botonescristalacierto)
                 resp1.isClickable = false
                 resp2.isEnabled = false
                 resp3.isEnabled = false
@@ -129,9 +129,9 @@ class Test : AppCompatActivity() {
                 aciertos++
 
             } else if (aleatorio == 1) {
-                resp1.setBackgroundColor(Color.RED)
-                resp2.setBackgroundColor(Color.GREEN)
-                resp3.setBackgroundColor(Color.RED)
+                resp1.setBackgroundResource(R.drawable.botonescristalerror)
+                resp2.setBackgroundResource(R.drawable.botonescristalacierto)
+                resp3.setBackgroundResource(R.drawable.botonescristalerror)
 
                 resp1.isEnabled = false
                 resp2.isClickable = false
@@ -141,9 +141,9 @@ class Test : AppCompatActivity() {
                 fallos++
 
             } else {
-                resp1.setBackgroundColor(Color.RED)
-                resp2.setBackgroundColor(Color.RED)
-                resp3.setBackgroundColor(Color.GREEN)
+                resp1.setBackgroundResource(R.drawable.botonescristalerror)
+                resp2.setBackgroundResource(R.drawable.botonescristalerror)
+                resp3.setBackgroundResource(R.drawable.botonescristalacierto)
 
                 resp1.isEnabled = false
                 resp2.isEnabled = false
@@ -157,7 +157,7 @@ class Test : AppCompatActivity() {
         resp2.setOnClickListener {
             if (aleatorio == 1) {
 
-                resp2.setBackgroundColor(Color.GREEN)
+                resp2.setBackgroundResource(R.drawable.botonescristalacierto)
                 resp1.isEnabled = false
                 resp2.isClickable = false
                 resp3.isEnabled = false
@@ -166,9 +166,9 @@ class Test : AppCompatActivity() {
                 aciertos++
 
             } else if (aleatorio == 0) {
-                resp1.setBackgroundColor(Color.GREEN)
-                resp2.setBackgroundColor(Color.RED)
-                resp3.setBackgroundColor(Color.RED)
+                resp1.setBackgroundResource(R.drawable.botonescristalacierto)
+                resp2.setBackgroundResource(R.drawable.botonescristalerror)
+                resp3.setBackgroundResource(R.drawable.botonescristalerror)
 
                 resp1.isClickable = false
                 resp2.isEnabled = false
@@ -178,9 +178,9 @@ class Test : AppCompatActivity() {
                 fallos++
 
             } else {
-                resp1.setBackgroundColor(Color.RED)
-                resp2.setBackgroundColor(Color.RED)
-                resp3.setBackgroundColor(Color.GREEN)
+                resp1.setBackgroundResource(R.drawable.botonescristalerror)
+                resp2.setBackgroundResource(R.drawable.botonescristalerror)
+                resp3.setBackgroundResource(R.drawable.botonescristalacierto)
 
                 resp1.isEnabled = false
                 resp2.isEnabled = false
@@ -194,7 +194,7 @@ class Test : AppCompatActivity() {
         resp3.setOnClickListener {
             if (aleatorio == 2) {
 
-                resp3.setBackgroundColor(Color.GREEN)
+                resp3.setBackgroundResource(R.drawable.botonescristalacierto)
                 resp1.isEnabled = false
                 resp2.isEnabled = false
                 resp3.isClickable = false
@@ -203,9 +203,9 @@ class Test : AppCompatActivity() {
                 aciertos++
 
             } else if (aleatorio == 0) {
-                resp1.setBackgroundColor(Color.GREEN)
-                resp2.setBackgroundColor(Color.RED)
-                resp3.setBackgroundColor(Color.RED)
+                resp1.setBackgroundResource(R.drawable.botonescristalacierto)
+                resp2.setBackgroundResource(R.drawable.botonescristalerror)
+                resp3.setBackgroundResource(R.drawable.botonescristalerror)
 
                 resp1.isClickable = false
                 resp2.isEnabled = false
@@ -216,9 +216,9 @@ class Test : AppCompatActivity() {
 
 
             } else {
-                resp1.setBackgroundColor(Color.RED)
-                resp2.setBackgroundColor(Color.GREEN)
-                resp3.setBackgroundColor(Color.RED)
+                resp1.setBackgroundResource(R.drawable.botonescristalerror)
+                resp2.setBackgroundResource(R.drawable.botonescristalacierto)
+                resp3.setBackgroundResource(R.drawable.botonescristalerror)
 
                 resp1.isEnabled = false
                 resp2.isClickable = false
@@ -241,6 +241,10 @@ class Test : AppCompatActivity() {
 
             }else{
 
+                resp1.setBackgroundResource(R.drawable.botonescristal)
+                resp2.setBackgroundResource(R.drawable.botonescristal)
+                resp3.setBackgroundResource(R.drawable.botonescristal)
+
                 contador_preguntas++
 
                 num_preguntas.text = contador_preguntas.toString()
@@ -253,9 +257,7 @@ class Test : AppCompatActivity() {
                 resp2.isClickable = true
                 resp3.isClickable = true
 
-                resp1.setBackgroundColor(Color.LTGRAY)
-                resp2.setBackgroundColor(Color.LTGRAY)
-                resp3.setBackgroundColor(Color.LTGRAY)
+
 
                 imagenes.clear()
                 respuestas.clear()
