@@ -9,22 +9,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Signals"/>
-        <activity android:name=".Signals_danger"/>
-        <activity android:name=".Signals_priority"/>
-        <activity android:name=".Signals_works"/>
-        <activity android:name=".Signals_orientation"/>
-        <activity android:name=".Signals_prohibition"/>
-        <activity android:name=".Signals_service"/>
-        <activity android:name=".Signals_obligation"/>
-        <activity android:name=".Test"/>
+        <activity android:name=".Signals"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Signals_danger"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Signals_priority"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Signals_works"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Signals_orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Signals_prohibition"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Signals_service"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Signals_obligation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Test"
+            android:screenOrientation="portrait"/>
 
         <meta-data
             android:name="preloaded_fonts"

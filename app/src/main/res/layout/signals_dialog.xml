@@ -2,17 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="8dp"
     android:gravity="center_horizontal">
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:orientation="vertical"
-        android:background="@drawable/fondo_dialog">
 
         <ImageView
             android:id="@+id/signal_dialog"
@@ -26,7 +19,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="a" />
-    </LinearLayout>
+            android:text="Texto de señal"
+            android:textStyle="bold|italic"
+            android:textColor="@color/negro"/>
 
 </LinearLayout>

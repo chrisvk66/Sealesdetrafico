@@ -1,8 +1,13 @@
 package com.signals.traffic.sealesdetrafico
 
+import android.content.Context
 import android.graphics.Color
+import android.opengl.Visibility
 import android.os.Bundle
+import android.support.v7.app.AlertDialog
 import android.support.v7.app.AppCompatActivity
+import android.view.LayoutInflater
+import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
@@ -18,6 +23,7 @@ class Test : AppCompatActivity() {
 
         var contador_preguntas:Int=1
         val num_preguntas = findViewById<TextView>(R.id.num_preguntas)
+        val preguntas = findViewById<TextView>(R.id.preguntas)
 
         var aciertos:Int=0
         var fallos:Int=0
@@ -237,7 +243,25 @@ class Test : AppCompatActivity() {
 
                 //finalizan las preguntas y se iniciaría la siguiente actividad mostrando los fallos y los aciertos
                 //Toast.makeText(this,"A: $aciertos F: $fallos", Toast.LENGTH_SHORT).show()
-                finish()
+                test_img.visibility = View.GONE
+                num_preguntas.visibility = View.GONE
+                preguntas.visibility = View.GONE
+                resp1.visibility = View.GONE
+                resp2.visibility = View.GONE
+                resp3.visibility = View.GONE
+                next.visibility = View.GONE
+
+                val context: Context = this
+
+                val li: LayoutInflater = LayoutInflater.from(context)
+                val prompt:View= li.inflate(R.layout.score_dialog,null)
+                val alert= AlertDialog.Builder(context)
+                alert.setView(prompt)
+                alert.setCancelable(false)
+                val alertDialog: AlertDialog = alert.create()
+                alertDialog.window.setBackgroundDrawableResource(R.drawable.dialog_border_test)
+                alertDialog.show()
+                //finish()
 
             }else{
 

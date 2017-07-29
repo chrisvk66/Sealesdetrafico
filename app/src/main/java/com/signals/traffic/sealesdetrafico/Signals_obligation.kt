@@ -38,6 +38,7 @@ class Signals_obligation : AppCompatActivity() {
         alert.setView(prompt)
         alert.setCancelable(true)
         val alertDialog:AlertDialog = alert.create()
+        alertDialog.window.setBackgroundDrawableResource(R.drawable.dialog_border)
         alertDialog.show()
 
         val signal_dialog=prompt.findViewById<ImageView>(R.id.signal_dialog)

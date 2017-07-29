@@ -40,4 +40,10 @@
         <item name="android:textColor">@color/blanco</item>
     </style>
 
+    <!--Botones crystal test-->
+    <style name="botonescrystaltest">
+        <item name="android:background">@drawable/botonescristaltest</item>
+        <item name="android:textColor">@color/blanco</item>
+    </style>
+
 </resources>

@@ -281,4 +281,7 @@
     <string name="obligation24">R416 Calzada para vehículos que transporten mercancías explosivas o inflamables</string>
     <string name="obligation25">R417 Uso obligatorio del cinturon de seguridad</string>
 
+    <string name="tryagain">Intentar de nuevo</string>
+    <string name="gomenu">Volver a la pantalla inicial</string>
+
 </resources>
