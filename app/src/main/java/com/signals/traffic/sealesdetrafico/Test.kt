@@ -259,9 +259,20 @@ class Test : AppCompatActivity() {
                 alert.setView(prompt)
                 val tryagain = prompt.findViewById<Button>(R.id.tryagain)
                 val gomenu = prompt.findViewById<Button>(R.id.gomenu)
+                val score = prompt.findViewById<TextView>(R.id.score_dialog)
+                val score_img = prompt.findViewById<ImageView>(R.id.score_image)
 
-                tryagain.setOnClickListener { startActivity(Intent(this, Test::class.java))}
-                gomenu.setOnClickListener { startActivity(Intent(this, MainActivity::class.java)) }
+                score.text = "Tu puntuación es $aciertos/10"
+
+                when (aciertos){
+
+                    in 1..4->score_img.setImageResource(R.drawable.danger1)
+                    5->score_img.setImageResource(R.drawable.danger10)
+                    in 6..9->score_img.setImageResource(R.drawable.danger11)
+                    10->score_img.setImageResource(R.drawable.danger12)
+                }
+                tryagain.setOnClickListener { finishAffinity() ; startActivity(Intent(this, Test::class.java))}
+                gomenu.setOnClickListener { finishAffinity() ;  startActivity(Intent(this, MainActivity::class.java)) }
                 alert.setCancelable(false)
                 val alertDialog: AlertDialog = alert.create()
                 alertDialog.window.setBackgroundDrawableResource(R.drawable.dialog_border_test)
@@ -315,11 +326,10 @@ class Test : AppCompatActivity() {
 
     }//OnCreate
 
-    override fun onBackPressed() {
+    //verride fun onBackPressed() {
         //super.onBackPressed()
 
             //System.exit(0)
-    }
-
+    //}
 }
 

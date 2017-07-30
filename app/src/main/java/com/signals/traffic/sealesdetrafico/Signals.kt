@@ -4,12 +4,19 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 class Signals : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.signals)
+
+        val mAdView = findViewById<AdView>(R.id.adView)
+        val adRequest = AdRequest.Builder().build()
+
+        mAdView.loadAd(adRequest)
     }
 
     fun danger(view:View){
