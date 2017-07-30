@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "521184532176",
+    "firebase_url": "https://sealesdetrafico.firebaseio.com",
+    "project_id": "sealesdetrafico",
+    "storage_bucket": "sealesdetrafico.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521184532176:android:795e22291cfb0087",
+        "android_client_info": {
+          "package_name": "com.signals.traffic.sealesdetrafico"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521184532176-ebum8gp41rbf81jagoa3evh1d9bhint1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.signals.traffic.sealesdetrafico",
+            "certificate_hash": "0bc0988bcf489cfe5aaed7e8c2edfbc449dfe2f7"
+          }
+        },
+        {
+          "client_id": "521184532176-u23ah1u5ef3o682sp95ag3016rtl19fk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGMnF7xAvV1mE-3PqGEsY-v2RsS9Y5BuU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521184532176-u23ah1u5ef3o682sp95ag3016rtl19fk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
