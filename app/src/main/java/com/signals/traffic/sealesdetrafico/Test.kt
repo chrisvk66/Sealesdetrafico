@@ -267,10 +267,10 @@ class Test : AppCompatActivity() {
 
                 when (aciertos){
 
-                    in 1..4->score_img.setImageResource(R.drawable.danger1)
-                    5->score_img.setImageResource(R.drawable.danger10)
-                    in 6..9->score_img.setImageResource(R.drawable.danger11)
-                    10->score_img.setImageResource(R.drawable.danger12)
+                    in 1..4->score_img.setImageResource(R.drawable.suspenso)
+                    5->score_img.setImageResource(R.drawable.bien)
+                    in 6..9->score_img.setImageResource(R.drawable.notable)
+                    10->score_img.setImageResource(R.drawable.sobresaliente)
                 }
                 tryagain.setOnClickListener { finishAffinity() ; startActivity(Intent(this, Test::class.java))}
                 gomenu.setOnClickListener { finishAffinity() ;  startActivity(Intent(this, MainActivity::class.java)) }
