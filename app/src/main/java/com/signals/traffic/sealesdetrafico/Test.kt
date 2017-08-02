@@ -1,6 +1,7 @@
 package com.signals.traffic.sealesdetrafico
 
 import android.content.Context
+import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AlertDialog
@@ -326,10 +327,20 @@ class Test : AppCompatActivity() {
 
     }//OnCreate
 
-    //verride fun onBackPressed() {
-        //super.onBackPressed()
 
-            //System.exit(0)
-    //}
+    override fun onBackPressed() {
+
+        val alert= AlertDialog.Builder(this)
+        alert.setTitle(getString(R.string.salir_test))
+        alert.setPositiveButton(getString(R.string.si), { dialog, i ->  finish()})
+        alert.setNegativeButton(getString(R.string.permanecer), { dialog, i -> dialog.dismiss() })
+        alert.setCancelable(true)
+
+        val alertDialog: AlertDialog = alert.create()
+        alertDialog.window.setBackgroundDrawableResource(R.drawable.dialog_border)
+        alertDialog.show()
+
+    }
+
 }
 
